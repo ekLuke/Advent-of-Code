@@ -1,5 +1,5 @@
 import re
-line_txt_array = open("file.txt").read().split("\n")
+line_txt_array = open("input.txt").read().split("\n")
 part = True # True -> part one, False -> part two
 numberdict = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"] 
 sommaTotal = 0
